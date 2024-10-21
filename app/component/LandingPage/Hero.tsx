@@ -3,6 +3,7 @@ import React from 'react';
 import Wrapper from '../shared/ComponentWrapper/Wrapper';
 import * as Icons from '../../svg/Icons';
 import { Fade, Zoom, Slide } from 'react-awesome-reveal';
+import Link from 'next/link';
 
 const Hero: React.FC = () => {
   return (
@@ -53,6 +54,13 @@ const Hero: React.FC = () => {
                   </div>
                 </div>
               </div>
+              <Link 
+              href="https://app.manifest.trade/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className='text-black z-50 px-10 2xl:px-12 3xl:px-20 py-4 m-12 bg-gradient-to-tr from-[#927252] to-[#95C9BD] rounded-lg text-[20px] font-medium hover:brightness-110 transition-all duration-300 active:translate-y-[1px]'>
+              View Markets
+              </Link>
             </Slide>
           </div>
         </Fade>
