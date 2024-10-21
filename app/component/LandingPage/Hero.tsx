@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
       
       <Wrapper style='h-full'>
         <Fade duration={1200} triggerOnce className='w-full h-full'>
-          <div className='w-full flex flex-col gap-5 justify-center items-center h-full'>
+          <div className='w-full flex flex-col gap-5 justify-center items-center h-full max-h-[800px]'>
             <Zoom duration={1500} triggerOnce>
               <div className="w-full -mt-28 max-w-[300px] sm:max-w-[450px] md:max-w-[940px] 2xl:max-w-[1800px] 2xl:h-[800px] h-[300px] sm:h-[400px] md:h-[490px] flex flex-col justify-center items-center">
                 <p className='text-[#bca378] mt-[5rem] sm:mt-[9rem] text-[16px] 2xl:text-[42px] sm:text-[24px] md:text-[30px] font-semibold'>
@@ -65,16 +65,9 @@ const Hero: React.FC = () => {
           </div>
         </Fade>
       </Wrapper>
-      <div className='absolute -bottom-10 left-0 opacity-30'>
-        <Icons.shade1 className='w-[319px] h-[416px]' />
-      </div>
-      <div className='absolute top-0 right-0 opacity-30'>
-        <Icons.shade2 className='w-[319px] h-[416px]' />
-      </div>
-      <Icons.arrow1 className='absolute opacity-30 left-[0] md:left-[3rem] bottom-[8rem] md:bottom-[7rem] w-[80px] sm:w-[149px] h-[90px] sm:h-[167px] transform rotate-[-90deg]' />
-      <Icons.arrow1 className='absolute opacity-20 left-[40%] bottom-[15%] sm:bottom-[0rem] w-[90px] sm:w-[123px] h-[100px] sm:h-[139px] transform rotate-[-90deg]' />
-      <Icons.arrow1 className='absolute opacity-30 right-[20%] bottom-[30%] w-[40px] sm:w-[70px] h-[50px] sm:h-[80px]' />
-      <Icons.arrow1 className='absolute opacity-20 right-0 sm:right-[2%] bottom-[10%] sm:bottom-[2%] w-[70px] sm:w-[107px] h-[70px] sm:h-[120px]' />
+      <Icons.arrow1 className='absolute opacity-30 left-[0] md:left-[3rem] bottom-[8rem] md:bottom-[7rem] w-[80px] sm:w-[149px] h-[90px] sm:h-[167px] transform rotate-[-90deg] hidden sm:block' />
+      <Icons.arrow1 className='absolute opacity-30 right-[20%] bottom-[30%] w-[40px] sm:w-[70px] h-[50px] sm:h-[80px] hidden sm:block' />
+      <Icons.arrow1 className='absolute opacity-20 right-0 sm:right-[2%] bottom-[10%] sm:bottom-[2%] w-[70px] sm:w-[107px] h-[70px] sm:h-[120px] hidden sm:block' />
     </div>
   );
 };
