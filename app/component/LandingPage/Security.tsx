@@ -33,12 +33,12 @@ const Security = () => {
             className='z-50 mb-0 2xl:mb-[0rem]'
           >
           <a
-            href="https://github.com/CKS-Systems/manifest"
+            href="/audit.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className='inline-block px-[20px] py-[10px] mt-6 sm:mt-10 active:translate-y-[1px] hover:opacity-80 rounded-lg bg-[#95C9BD] text-black/80 text-[14px] sm:text-[16px] font-medium'
           >
-            Report Coming Soon
+            View Report
           </a>
           </Fade>
         </div>
