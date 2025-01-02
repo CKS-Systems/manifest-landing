@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
               </div>
             </Zoom>
             <Slide
-              className='w-full flex justify-center items-center'
+              className='w-full flex flex-col sm:flex-row gap-4 justify-center items-center'
               direction='up'
               duration={1000}
               delay={500}
@@ -54,13 +54,22 @@ const Hero: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <Link 
-              href="https://app.manifest.trade/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className='text-black z-50 px-10 2xl:px-12 3xl:px-20 py-4 m-12 bg-gradient-to-tr from-[#927252] to-[#95C9BD] rounded-lg text-[20px] font-medium hover:brightness-110 transition-all duration-300 active:translate-y-[1px]'>
-              View Markets
-              </Link>
+              <div className='flex flex-col sm:flex-row gap-4 md:gap-6 lg:gap-8 2xl:gap-12 justify-center items-stretch'>
+                <Link 
+                href="https://app.manifest.trade/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className='text-black z-50 px-10 2xl:px-12 3xl:px-20 py-4 bg-gradient-to-tr from-[#927252] to-[#95C9BD] rounded-lg text-[20px] font-medium hover:brightness-110 transition-all duration-300 active:translate-y-[1px] min-w-[200px] sm:min-w-[220px] md:min-w-[240px] text-center'>
+                Markets
+                </Link>
+                <Link 
+                href="https://leaderboard.manifest.trade/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className='text-black z-50 px-10 2xl:px-12 3xl:px-20 py-4 bg-gradient-to-tr from-[#95C9BD] to-[#927252] rounded-lg text-[20px] font-medium hover:brightness-110 transition-all duration-300 active:translate-y-[1px] min-w-[200px] sm:min-w-[220px] md:min-w-[240px] text-center'>
+                Leaderboard
+                </Link>
+              </div>
             </Slide>
           </div>
         </Fade>
