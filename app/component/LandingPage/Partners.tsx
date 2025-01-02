@@ -78,9 +78,9 @@ const ecoSystemData = [
     path: '#',
     name: '',
     img: (
-      <a href='https://app.mango.markets/trade/' target='_blank' rel='noopener noreferrer'>
+      <a href='https://www.sendai.fun/' target='_blank' rel='noopener noreferrer'>
       <div className='w-[180px] sm:w-[300px] 2xl:w-[550px] 3xl:w-[800px] h-[45px] 2xl:h-[120px] 3xl:h-[300px] sm:h-[80px] relative'>
-        <Image src='/assets/mango.svg' fill alt='' className='object-fill' />
+        <Image src='/assets/SendAI.svg' fill alt='' className='object-fill' />
       </div>
       </a>
     ),
