@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
                 Markets
                 </Link>
                 <Link 
-                href="https://leaderboard.manifest.trade/" 
+                href="https://levels-ai.xyz/trading/ENhU8LsaR7vDD2G1CsWcsuSGNrih9Cv5WZEk7q9kPapQ?showLeaderboard=true" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className='text-black z-50 px-10 2xl:px-12 3xl:px-20 py-4 bg-gradient-to-tr from-[#95C9BD] to-[#927252] rounded-lg text-[20px] font-medium hover:brightness-110 transition-all duration-300 active:translate-y-[1px] min-w-[200px] sm:min-w-[220px] md:min-w-[240px] text-center'>
