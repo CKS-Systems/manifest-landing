@@ -47,7 +47,7 @@ const Footer = () => {
                 Manifest is Open Source, Public Good, Blockchain Software. Licensed under GNU GPL-3.0
               </p>
               <p className='text-[16px] 2xl:text-[22px] 3xl:text-[32px] font-normal text-[#bca378]/60'>
-                © 2024 Manifest. All Rights Reserved.
+                © 2025 Manifest. All Rights Reserved.
               </p>
             </div>
           </Fade>

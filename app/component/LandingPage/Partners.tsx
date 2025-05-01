@@ -20,7 +20,7 @@ const page = () => {
               </h1>
             </div>
           </Fade>
-          <div className='w-full grid grid-cols-1 md:grid-cols-1 gap-x-8 gap-y-[2rem] sm:gap-y-[3rem] 2xl:gap-y-[7rem] 3xl:gap-y-[14rem] z-30'>
+          <div className='w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-[2rem] sm:gap-y-[3rem] 2xl:gap-y-[7rem] 3xl:gap-y-[14rem] z-30'>
             {ecoSystemData.map((item, index) => {
               const slideDirection = index % 2 === 0 ? 'left' : 'right';
               return (
@@ -78,9 +78,51 @@ const ecoSystemData = [
     path: '#',
     name: '',
     img: (
-      <a href='https://www.sendai.fun/' target='_blank' rel='noopener noreferrer'>
+      <a href='https://spur.gold' target='_blank' rel='noopener noreferrer'>
       <div className='w-[180px] sm:w-[300px] 2xl:w-[550px] 3xl:w-[800px] h-[45px] 2xl:h-[120px] 3xl:h-[300px] sm:h-[80px] relative'>
-        <Image src='/assets/SendAI.svg' fill alt='' className='object-fill' />
+        <Image src='/assets/spur-wide.svg' fill alt='' className='object-fill' />
+      </div>
+      </a>
+    ),
+  },
+  {
+    path: '#',
+    name: '',
+    img: (
+      <a href='https://levels-ai.xyz' target='_blank' rel='noopener noreferrer'>
+        <div className='w-[180px] sm:w-[300px] 2xl:w-[550px] 3xl:w-[800px] h-[45px] 2xl:h-[120px] 3xl:h-[300px] sm:h-[80px] relative flex items-center justify-center'>
+          <Image 
+            src='/assets/levels.png' 
+            width={180}
+            height={45}
+            sizes="(max-width: 640px) 180px, (max-width: 1536px) 300px, (max-width: 1920px) 550px, 800px"
+            alt='Levels AI logo'
+            className='object-contain w-auto h-full'
+            priority
+            quality={100}
+          />
+        </div>
+      </a>
+    ),
+  },
+  {
+    path: '#',
+    name: '',
+    img: (
+      <a href='https://cabana.exchange' target='_blank' rel='noopener noreferrer'>
+      <div className='w-[180px] sm:w-[300px] 2xl:w-[550px] 3xl:w-[800px] h-[45px] 2xl:h-[120px] 3xl:h-[300px] sm:h-[80px] relative'>
+        <Image src='/assets/cabana-logo.svg' fill alt='' className='object-fill' />
+      </div>
+      </a>
+    ),
+  },
+  {
+    path: '#',
+    name: '',
+    img: (
+      <a href='https://www.sendai.fun/' target='_blank' rel='noopener noreferrer'>
+      <div className='w-[144px] sm:w-[240px] 2xl:w-[440px] 3xl:w-[640px] h-[36px] 2xl:h-[96px] 3xl:h-[240px] sm:h-[64px] relative'>
+        <Image src='/assets/SendAI.svg' fill alt='SendAI logo' className='object-contain' />
       </div>
       </a>
     ),
