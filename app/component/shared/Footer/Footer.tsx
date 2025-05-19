@@ -71,9 +71,9 @@ const socialIcons = [
     ),
   },
   {
-    path: 'https://github.com/CKS-Systems/manifest/tree/main/docs',
+    path: 'https://cks-systems.github.io/manifest',
     name: (
-      <Icons.gitBook className='w-[32px] 2xl:w-[48px] h-[32px] 3xl:h-[55px] 2xl:h-[40px] 3xl:w-[70px] hover:scale-105 duration-300 cursor-not-allowed' />
+      <Icons.gitBook className='w-[32px] 2xl:w-[48px] h-[32px] 3xl:h-[55px] 2xl:h-[40px] 3xl:w-[70px] hover:scale-105 duration-300' />
     ),
   },
   {
