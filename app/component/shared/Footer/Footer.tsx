@@ -76,6 +76,18 @@ const socialIcons = [
       <Icons.gitBook className='w-[32px] 2xl:w-[48px] h-[32px] 3xl:h-[55px] 2xl:h-[40px] 3xl:w-[70px] hover:scale-105 duration-300 cursor-not-allowed' />
     ),
   },
+  {
+    path: 'https://linktr.ee/ManifestTrade',
+    name: (
+      <svg 
+        className='w-[32px] 2xl:w-[48px] h-[32px] 3xl:h-[55px] 2xl:h-[40px] 3xl:w-[70px] hover:scale-105 duration-300' 
+        viewBox="0 0 24 24" 
+        fill="rgba(255, 255, 255, 0.5)"
+      >
+        <path d="M7.953 15.066L2.886 10l5.067-5.066.826.826-3.826 3.826H20v1.167H4.953l3.826 3.826zm8.094-6.132L21.114 14l-5.067 5.066-.826-.826 3.826-3.826H4v-1.167h15.047l-3.826-3.826z"/>
+      </svg>
+    ),
+  },
 ];
 
 export default Footer;
