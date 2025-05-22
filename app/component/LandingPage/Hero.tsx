@@ -15,9 +15,9 @@ const Hero: React.FC = () => {
           <div className='w-full flex flex-col gap-5 justify-center items-center h-full max-h-[800px]'>
             <Zoom duration={1500} triggerOnce>
               <div className="w-full -mt-28 max-w-[300px] sm:max-w-[450px] md:max-w-[940px] 2xl:max-w-[1800px] 2xl:h-[800px] h-[300px] sm:h-[400px] md:h-[490px] flex flex-col justify-center items-center">
-                <p className='text-[#deb36cff] mt-[5rem] sm:mt-[9rem] text-[16px] 2xl:text-[42px] sm:text-[24px] md:text-[30px] font-surf'>
-                M A N I F E S T
-                </p>
+                <div className='mt-[5rem] sm:mt-[9rem] text-[21px] 2xl:text-[55px] sm:text-[31px] md:text-[39px] h-[21px] 2xl:h-[55px] sm:h-[31px] md:h-[39px]'>
+                  {/* Invisible spacer to maintain layout */}
+                </div>
 
                 <h1 className='text-[38px] sm:block hidden sm:text-[50px] md:text-[70px] lg:text-[96px] 2xl:text-[140px] tracking-[4px] leading-[50px] sm:leading-[60px] md:leading-[90px] lg:leading-[120px] 2xl:leading-[180px] text-center font-bold font-terminaExtraBold text-[#deb36cff] mt-0 2xl:mt-3'>
                   The Unlimited <br /> Orderbook

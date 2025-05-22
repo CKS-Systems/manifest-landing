@@ -19,6 +19,19 @@ export const Logo: React.FC<Props> = ({
   </div>
 );
 
+export const WideLogo: React.FC<Props> = ({
+  className = 'w-[120px] h-[36px]',
+}: Props) => (
+  <div className={`${className} relative`}>
+    <Image
+      src="/assets/manifest-wide.png"
+      alt="Wide Logo"
+      fill
+      className="object-contain"
+    />
+  </div>
+);
+
 export const twiter: React.FC<Props> = ({
   className = 'w-[32px] h-[32px]',
 }: Props) => (

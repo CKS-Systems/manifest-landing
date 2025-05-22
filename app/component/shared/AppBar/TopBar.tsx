@@ -21,7 +21,7 @@ const TopBar = () => {
       <Wrapper style='h-full'>
         <div className='w-full h-full flex justify-between items-center'>
           <Link href='/' className='z-50'>
-            <Icons.Logo className='w-[80px] h-[24px] sm:h-[28px]' />
+            <Icons.WideLogo className='w-[160px] h-[48px] sm:w-[180px] sm:h-[54px] md:w-[200px] md:h-[60px]' />
           </Link>
           <div className='hidden md:flex justify-center items-center gap-10 z-50'>
             {links.map((item, index) => {
