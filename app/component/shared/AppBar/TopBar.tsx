@@ -41,7 +41,7 @@ const TopBar = () => {
             })}
           </div>
           <Link 
-            href="https://levels-ai.xyz/trading" 
+            href="https://app.manifest.trade" 
             target="_blank" 
             rel="noopener noreferrer"
             className='text-black z-50 px-8 2xl:px-10 3xl:px-16 py-3 bg-[#95C9BD] rounded-lg text-[16px] font-medium hover:opacity-80 active:translate-y-[1px]'>
