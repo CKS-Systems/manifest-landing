@@ -23,6 +23,7 @@ const config: Config = {
         terminaExtraDemi: ['TerminaTest-Demi', 'sans-serif'],
         terminaExtraBold: ['TerminaTest-Bold', 'sans-serif'],
         terminaExtraBlack: ['TerminaTest-Black', 'sans-serif'],
+        surf: ['Original Surfer', 'sans-serif'],
       },
       screens: {
         xs: '325px',

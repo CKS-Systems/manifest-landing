@@ -4,9 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #090b0b;
+@font-face {
+  font-family: 'Original Surfer';
+  src: url('../public/fonts/OriginalSurfer-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
   font-family: 'TerminaTest-Thin';
   src: url('/fonts/TerminaTest-Thin.woff');
@@ -54,6 +59,10 @@ body {
   font-family: 'TerminaTest-Black';
   src: url('/fonts/TerminaTest-Black.woff');
   font-display: swap;
+}
+
+body {
+  background-color: #090b0b;
 }
 
 .textColor {
