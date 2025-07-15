@@ -120,9 +120,9 @@ const ecoSystemData = [
     path: '#',
     name: '',
     img: (
-      <a href='https://www.sendai.fun/' target='_blank' rel='noopener noreferrer'>
+      <a href='https://titandex.io/' target='_blank' rel='noopener noreferrer'>
       <div className='w-[144px] sm:w-[240px] 2xl:w-[440px] 3xl:w-[640px] h-[36px] 2xl:h-[96px] 3xl:h-[240px] sm:h-[64px] relative'>
-        <Image src='/assets/SendAI.svg' fill alt='SendAI logo' className='object-contain' />
+        <Image src='/assets/Titan.svg' fill alt='Titan logo' className='object-contain' />
       </div>
       </a>
     ),
