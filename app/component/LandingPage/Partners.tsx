@@ -52,6 +52,50 @@ const page = () => {
 
 
 const ecoSystemData = [
+    {
+    path: '#',
+    name: '',
+    img: (
+      <a href='https://cabana.exchange' target='_blank' rel='noopener noreferrer'>
+      <div className='w-[180px] sm:w-[300px] 2xl:w-[550px] 3xl:w-[800px] h-[45px] 2xl:h-[120px] 3xl:h-[300px] sm:h-[80px] relative'>
+        <Image src='/assets/cabana-logo.svg' fill alt='' className='object-fill' />
+      </div>
+      </a>
+    ),
+  },
+  {
+    path: '#',
+    name: '',
+    img: (
+      <a href='https://titandex.io/' target='_blank' rel='noopener noreferrer'>
+      <div className='w-[144px] sm:w-[240px] 2xl:w-[440px] 3xl:w-[640px] h-[36px] 2xl:h-[96px] 3xl:h-[240px] sm:h-[64px] relative'>
+        <Image src='/assets/Titan.svg' fill alt='Titan logo' className='object-contain' />
+      </div>
+      </a>
+    ),
+  },
+    {
+    path: '#',
+    name: '',
+    img: (
+      <a href='https://swissborg.com/' target='_blank' rel='noopener noreferrer'>
+      <div className='w-[144px] sm:w-[240px] 2xl:w-[440px] 3xl:w-[640px] h-[36px] 2xl:h-[96px] 3xl:h-[240px] sm:h-[64px] relative'>
+        <Image src='/assets/Swissborg-logo.png' fill alt='Swissborg logo' className='object-contain' />
+      </div>
+      </a>
+    ),
+  },
+      {
+    path: '#',
+    name: '',
+    img: (
+      <a href='https://shyft.to/' target='_blank' rel='noopener noreferrer'>
+      <div className='w-[144px] sm:w-[240px] 2xl:w-[440px] 3xl:w-[640px] h-[36px] 2xl:h-[96px] 3xl:h-[240px] sm:h-[64px] relative'>
+        <Image src='/assets/shyft_logo.svg' fill alt='Shyft logo' className='object-contain' />
+      </div>
+      </a>
+    ),
+  }, 
   {
     path: '#',
     name: '',
@@ -105,28 +149,6 @@ const ecoSystemData = [
       </a>
     ),
   },
-  {
-    path: '#',
-    name: '',
-    img: (
-      <a href='https://cabana.exchange' target='_blank' rel='noopener noreferrer'>
-      <div className='w-[180px] sm:w-[300px] 2xl:w-[550px] 3xl:w-[800px] h-[45px] 2xl:h-[120px] 3xl:h-[300px] sm:h-[80px] relative'>
-        <Image src='/assets/cabana-logo.svg' fill alt='' className='object-fill' />
-      </div>
-      </a>
-    ),
-  },
-  {
-    path: '#',
-    name: '',
-    img: (
-      <a href='https://titandex.io/' target='_blank' rel='noopener noreferrer'>
-      <div className='w-[144px] sm:w-[240px] 2xl:w-[440px] 3xl:w-[640px] h-[36px] 2xl:h-[96px] 3xl:h-[240px] sm:h-[64px] relative'>
-        <Image src='/assets/Titan.svg' fill alt='Titan logo' className='object-contain' />
-      </div>
-      </a>
-    ),
-  }, 
 ];
 
 export default page;
